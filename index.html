@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HFC - Hunger Fried Chicken</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="fade-in">
+    <h1>🍗 HFC - Hunger Fried Chicken</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero slide-up">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Welcome to HFC!</h2>
+        <p>Delicious, Crispy,<br> Hot nd Just for you.</p>
+        <a href="menu.html" class="btn bounce">View Menu</a>
+      </div>
+      <div class="hero-image">
+        <img src="hfc.png" alt="HFC Special">
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ New Image Section Here -->
+  <section class="deal-container">
+    <h2 class="hot-deal">🔥 Hot Deal of the Day!</h2>
+    <img src="hfcdeals.jpeg" alt="Special Chicken Offer" class="deal-image">
+    <p class="deal-text">Buy 4 Pc Hot & Crispy and Get 4 Pc Strips Free</p>
+  </section>
+
+  <footer class="fade-in">
+    <div class="social-icons">
+      <a href="#" target="_blank">🐦</a>
+      <a href="#" target="_blank">📘</a>
+      <a href="#" target="_blank">📸</a>
+    </div>
+    <p>&copy; 2025 HFC. All Rights Reserved.</p>
+  </footer>
+</body>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+
+</html>

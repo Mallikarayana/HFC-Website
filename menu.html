@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - HFC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="fade-in">
+    <h1>🍗 HFC - Hunger Fried Chicken</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="menu-section">
+  <h2>Our Menus</h2>
+  <div class="menu-container">
+    <div class="menu-card">
+      <img src="menu.jpeg" alt="Menu 1">
+    </div>
+    <div class="menu-card">
+      <img src="menu2.jpeg" alt="Menu 2">
+    </div>
+    <div class="menu-card">
+      <img src="menu1.jpeg" alt="Menu 3">
+    </div>
+  </div>
+</section>
+  <footer class="fade-in">
+    <div class="social-icons">
+  <a href="#" target="_blank">🐦</a>
+  <a href="#" target="_blank">📘</a>
+  <a href="#" target="_blank">📸</a>
+</div>
+    <p>&copy; 2025 HFC. All Rights Reserved.</p>
+  </footer>
+</body>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+</html>

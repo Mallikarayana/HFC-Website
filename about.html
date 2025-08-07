@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - HFC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="fade-in">
+    <h1>🍗 HFC - Hunger Fried Chicken</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about-section slide-up">
+    <h2>About Us</h2>
+    <p>
+      Welcome to <strong>Hunger Fried Chicken (HFC)</strong>!<br><br>
+      We’re passionate about bringing you the most delicious, juicy, and crispy fried chicken in town.
+      Our secret? Fresh ingredients, unique flavors, and love in every bite! 🍗❤️
+    </p>
+    <div class="about-image-container">
+      <img src="hfc.png" alt="HFC about" class="about-image">
+    </div>
+  </section>
+
+  <footer class="fade-in">
+    <div class="social-icons">
+      <a href="#" target="_blank">🐦</a>
+      <a href="#" target="_blank">📘</a>
+      <a href="#" target="_blank">📸</a>
+    </div>
+    <p>&copy; 2025 HFC. All Rights Reserved.</p>
+  </footer>
+</body>
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+</script>
+
+</html>
